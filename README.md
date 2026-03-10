@@ -1,12 +1,10 @@
-# HiWE: Semi-Supervised Hierarchical Waypoint Extraction
+# HiWE: Hierarchical Waypoint Extraction
 
-Semi-supervised learning-based hierarchical waypoint extraction for imitation learning in robotic manipulation. Processes human demonstration datasets to reduce compounding errors by identifying key intervals and extracting sparse waypoints.
-
-## Method Overview
+Data preprocessing toolkit for imitation learning. It is for improving policy success rate by refining raw demos—human data often has noise and redundant motions that cause compounding errors at deployment. This tool identifies critical segments (grasp, insert, etc.), extracts sparse waypoints with stricter constraints where precision matters, and relabels actions for cleaner training.
 
 ![SSL-HWE Pipeline](media/images/pipeline.png)
 
-The pipeline consists of:
+**Workflow:**
 
 1. **Data preprocessing** – Convert datasets (ACT or DP/robomimic format)
 2. **Key interval labeling** – Manual labeling of key interval start/end (or automatic via semi-supervised model)
@@ -21,28 +19,6 @@ The pipeline consists of:
 pip install -e .
 # or
 pip install -r requirements.txt
-```
-
-## Project Structure
-
-```
-HiWE/
-├── src/hiwe/              # Core library
-│   ├── waypoint/          # Waypoint extraction (DP, trajectory reconstruction)
-│   └── segmentation/      # Key interval segmentation (ResNet+GRU)
-├── scripts/
-│   ├── dp/                # DP (robomimic) pipeline
-│   │   ├── preprocess.py      # Convert DP → per-episode HDF5
-│   │   ├── writeback_labels.py # Write labels back to original DP
-│   │   ├── relabel_actions.py  # Relabel actions with waypoints
-│   │   └── run_waypoint_extraction.py
-│   ├── act/               # ACT pipeline
-│   │   └── run_waypoint_extraction.py
-│   ├── labeling/         # Interactive labeling
-│   │   └── interactive_label.py
-│   └── train_segmentation.py  # Train key interval segmentation model
-├── act_utils.py          # ACT training utils (waypoint-aware EpisodicDataset)
-└── configs/
 ```
 
 ## Usage
