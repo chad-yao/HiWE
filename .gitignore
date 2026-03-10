@@ -19,6 +19,3 @@ build/
 # Outputs
 image/
 checkpoints/
-
-# Include demo assets
-!media/

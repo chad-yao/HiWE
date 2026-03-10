@@ -111,12 +111,25 @@ HiWE/
 
 Real-world evaluation on three tasks. SSL-HWE + ACT outperforms AWE + ACT and ACT alone by 30–50% in success rate.
 
-**[▶ Open interactive demo](media/demo.html)** — slide to switch between SSL-HWE + ACT, AWE + ACT, and ACT for each task.
+### Task 1: Kitchen
+Grasp pot → place on cooker → insert tomato → insert pepper.
 
-| Task | Description |
-|------|-------------|
-| **Kitchen** | Grasp pot → place on cooker → insert tomato → insert pepper |
-| **Desk Storage** | Open drawer → place tissue and figurine → close drawer |
-| **Desk Clear** | Grasp broom and dustpan → sweep trash → return tools (dual-arm) |
+| SSL-HWE + ACT (Ours) | AWE + ACT | ACT |
+|:---:|:---:|:---:|
+| [▶ video](media/videos/Task1/kitchen_ssl_hwe.mp4) | [▶ video](media/videos/Task1/kitchen_awe.mp4) | [▶ video](media/videos/Task1/kitchen_act.mp4) |
+
+### Task 2: Desk Storage
+Open drawer → place tissue and figurine → close drawer.
+
+| SSL-HWE + ACT (Ours) | AWE + ACT | ACT |
+|:---:|:---:|:---:|
+| [▶ video](media/videos/Task2/storage_ssl_hwe.mp4) | [▶ video](media/videos/Task2/storage_awe.mp4) | [▶ video](media/videos/Task2/storage_act.mp4) |
+
+### Task 3: Desk Clear (Dual-Arm)
+Grasp broom and dustpan → sweep trash → return tools.
+
+| SSL-HWE + ACT (Ours) | AWE + ACT | ACT |
+|:---:|:---:|:---:|
+| [▶ video](media/videos/Task3/clear_ssl_hwe.mp4) | [▶ video](media/videos/Task3/clear_awe.mp4) | [▶ video](media/videos/Task3/clear_act.mp4) |
 
 
