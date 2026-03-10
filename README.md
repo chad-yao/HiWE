@@ -114,49 +114,22 @@ Real-world evaluation on three tasks. SSL-HWE + ACT outperforms AWE + ACT and AC
 ### Task 1: Kitchen
 Grasp pot → place on cooker → insert tomato → insert pepper.
 
-<table>
-<tr>
-  <th>SSL-HWE + ACT (Ours)</th>
-  <th>AWE + ACT</th>
-  <th>ACT</th>
-</tr>
-<tr>
-  <td><video src="https://raw.githubusercontent.com/chad-yao/HiWE/main/media/videos/Task1/kitchen_ssl_hwe.mp4" controls width="280" muted loop playsinline></video></td>
-  <td><video src="https://raw.githubusercontent.com/chad-yao/HiWE/main/media/videos/Task1/kitchen_awe.mp4" controls width="280" muted loop playsinline></video></td>
-  <td><video src="https://raw.githubusercontent.com/chad-yao/HiWE/main/media/videos/Task1/kitchen_act.mp4" controls width="280" muted loop playsinline></video></td>
-</tr>
-</table>
+| SSL-HWE + ACT (Ours) | AWE + ACT | ACT |
+|:---:|:---:|:---:|
+| ![Kitchen SSL-HWE](media/gifs/Task1/kitchen_ssl_hwe.gif) | ![Kitchen AWE](media/gifs/Task1/kitchen_awe.gif) | ![Kitchen ACT](media/gifs/Task1/kitchen_act.gif) |
 
 ### Task 2: Desk Storage
 Open drawer → place tissue and figurine → close drawer.
 
-<table>
-<tr>
-  <th>SSL-HWE + ACT (Ours)</th>
-  <th>AWE + ACT</th>
-  <th>ACT</th>
-</tr>
-<tr>
-  <td><video src="https://raw.githubusercontent.com/chad-yao/HiWE/main/media/videos/Task2/storage_ssl_hwe.mp4" controls width="280" muted loop playsinline></video></td>
-  <td><video src="https://raw.githubusercontent.com/chad-yao/HiWE/main/media/videos/Task2/storage_awe.mp4" controls width="280" muted loop playsinline></video></td>
-  <td><video src="https://raw.githubusercontent.com/chad-yao/HiWE/main/media/videos/Task2/storage_act.mp4" controls width="280" muted loop playsinline></video></td>
-</tr>
-</table>
+| SSL-HWE + ACT (Ours) | AWE + ACT | ACT |
+|:---:|:---:|:---:|
+| ![Storage SSL-HWE](media/gifs/Task2/storage_ssl_hwe.gif) | ![Storage AWE](media/gifs/Task2/storage_awe.gif) | ![Storage ACT](media/gifs/Task2/storage_act.gif) |
 
 ### Task 3: Desk Clear (Dual-Arm)
 Grasp broom and dustpan → sweep trash → return tools.
 
-<table>
-<tr>
-  <th>SSL-HWE + ACT (Ours)</th>
-  <th>AWE + ACT</th>
-  <th>ACT</th>
-</tr>
-<tr>
-  <td><video src="https://raw.githubusercontent.com/chad-yao/HiWE/main/media/videos/Task3/clear_ssl_hwe.mp4" controls width="280" muted loop playsinline></video></td>
-  <td><video src="https://raw.githubusercontent.com/chad-yao/HiWE/main/media/videos/Task3/clear_awe.mp4" controls width="280" muted loop playsinline></video></td>
-  <td><video src="https://raw.githubusercontent.com/chad-yao/HiWE/main/media/videos/Task3/clear_act.mp4" controls width="280" muted loop playsinline></video></td>
-</tr>
-</table>
+| SSL-HWE + ACT (Ours) | AWE + ACT | ACT |
+|:---:|:---:|:---:|
+| ![Clear SSL-HWE](media/gifs/Task3/clear_ssl_hwe.gif) | ![Clear AWE](media/gifs/Task3/clear_awe.gif) | ![Clear ACT](media/gifs/Task3/clear_act.gif) |
 
 
