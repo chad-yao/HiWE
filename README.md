@@ -121,9 +121,9 @@ Grasp pot → place on cooker → insert tomato → insert pepper.
   <th>ACT</th>
 </tr>
 <tr>
-  <td><video src="media/videos/Task1/kitchen_ssl_hwe.mp4" controls width="280" muted loop playsinline></video></td>
-  <td><video src="media/videos/Task1/kitchen_awe.mp4" controls width="280" muted loop playsinline></video></td>
-  <td><video src="media/videos/Task1/kitchen_act.mp4" controls width="280" muted loop playsinline></video></td>
+  <td><video src="https://raw.githubusercontent.com/chad-yao/HiWE/main/media/videos/Task1/kitchen_ssl_hwe.mp4" controls width="280" muted loop playsinline></video></td>
+  <td><video src="https://raw.githubusercontent.com/chad-yao/HiWE/main/media/videos/Task1/kitchen_awe.mp4" controls width="280" muted loop playsinline></video></td>
+  <td><video src="https://raw.githubusercontent.com/chad-yao/HiWE/main/media/videos/Task1/kitchen_act.mp4" controls width="280" muted loop playsinline></video></td>
 </tr>
 </table>
 
@@ -137,9 +137,9 @@ Open drawer → place tissue and figurine → close drawer.
   <th>ACT</th>
 </tr>
 <tr>
-  <td><video src="media/videos/Task2/storage_ssl_hwe.mp4" controls width="280" muted loop playsinline></video></td>
-  <td><video src="media/videos/Task2/storage_awe.mp4" controls width="280" muted loop playsinline></video></td>
-  <td><video src="media/videos/Task2/storage_act.mp4" controls width="280" muted loop playsinline></video></td>
+  <td><video src="https://raw.githubusercontent.com/chad-yao/HiWE/main/media/videos/Task2/storage_ssl_hwe.mp4" controls width="280" muted loop playsinline></video></td>
+  <td><video src="https://raw.githubusercontent.com/chad-yao/HiWE/main/media/videos/Task2/storage_awe.mp4" controls width="280" muted loop playsinline></video></td>
+  <td><video src="https://raw.githubusercontent.com/chad-yao/HiWE/main/media/videos/Task2/storage_act.mp4" controls width="280" muted loop playsinline></video></td>
 </tr>
 </table>
 
@@ -153,9 +153,9 @@ Grasp broom and dustpan → sweep trash → return tools.
   <th>ACT</th>
 </tr>
 <tr>
-  <td><video src="media/videos/Task3/clear_ssl_hwe.mp4" controls width="280" muted loop playsinline></video></td>
-  <td><video src="media/videos/Task3/clear_awe.mp4" controls width="280" muted loop playsinline></video></td>
-  <td><video src="media/videos/Task3/clear_act.mp4" controls width="280" muted loop playsinline></video></td>
+  <td><video src="https://raw.githubusercontent.com/chad-yao/HiWE/main/media/videos/Task3/clear_ssl_hwe.mp4" controls width="280" muted loop playsinline></video></td>
+  <td><video src="https://raw.githubusercontent.com/chad-yao/HiWE/main/media/videos/Task3/clear_awe.mp4" controls width="280" muted loop playsinline></video></td>
+  <td><video src="https://raw.githubusercontent.com/chad-yao/HiWE/main/media/videos/Task3/clear_act.mp4" controls width="280" muted loop playsinline></video></td>
 </tr>
 </table>
 
