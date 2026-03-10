@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hiwe"
+version = "0.1.0"
+description = "Semi-Supervised Learning-Based Hierarchical Waypoint Extraction for Imitation Learning"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.8"
+dependencies = [
+    "h5py>=3.0.0",
+    "numpy>=1.20.0",
+    "torch>=1.10.0",
+    "torchvision>=0.11.0",
+    "scipy>=1.7.0",
+    "tqdm>=4.60.0",
+    "matplotlib>=3.4.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest", "ruff"]
+
+[tool.setuptools.package-dir]
+"" = "src"
+
+[tool.setuptools.packages.find]
+where = ["src"]
