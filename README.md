@@ -114,22 +114,49 @@ Real-world evaluation on three tasks. SSL-HWE + ACT outperforms AWE + ACT and AC
 ### Task 1: Kitchen
 Grasp pot → place on cooker → insert tomato → insert pepper.
 
-| SSL-HWE + ACT (Ours) | AWE + ACT | ACT |
-|:---:|:---:|:---:|
-| [▶ video](media/videos/Task1/kitchen_ssl_hwe.mp4) | [▶ video](media/videos/Task1/kitchen_awe.mp4) | [▶ video](media/videos/Task1/kitchen_act.mp4) |
+<table>
+<tr>
+  <th>SSL-HWE + ACT (Ours)</th>
+  <th>AWE + ACT</th>
+  <th>ACT</th>
+</tr>
+<tr>
+  <td><video src="media/videos/Task1/kitchen_ssl_hwe.mp4" controls width="280" muted loop playsinline></video></td>
+  <td><video src="media/videos/Task1/kitchen_awe.mp4" controls width="280" muted loop playsinline></video></td>
+  <td><video src="media/videos/Task1/kitchen_act.mp4" controls width="280" muted loop playsinline></video></td>
+</tr>
+</table>
 
 ### Task 2: Desk Storage
 Open drawer → place tissue and figurine → close drawer.
 
-| SSL-HWE + ACT (Ours) | AWE + ACT | ACT |
-|:---:|:---:|:---:|
-| [▶ video](media/videos/Task2/storage_ssl_hwe.mp4) | [▶ video](media/videos/Task2/storage_awe.mp4) | [▶ video](media/videos/Task2/storage_act.mp4) |
+<table>
+<tr>
+  <th>SSL-HWE + ACT (Ours)</th>
+  <th>AWE + ACT</th>
+  <th>ACT</th>
+</tr>
+<tr>
+  <td><video src="media/videos/Task2/storage_ssl_hwe.mp4" controls width="280" muted loop playsinline></video></td>
+  <td><video src="media/videos/Task2/storage_awe.mp4" controls width="280" muted loop playsinline></video></td>
+  <td><video src="media/videos/Task2/storage_act.mp4" controls width="280" muted loop playsinline></video></td>
+</tr>
+</table>
 
 ### Task 3: Desk Clear (Dual-Arm)
 Grasp broom and dustpan → sweep trash → return tools.
 
-| SSL-HWE + ACT (Ours) | AWE + ACT | ACT |
-|:---:|:---:|:---:|
-| [▶ video](media/videos/Task3/clear_ssl_hwe.mp4) | [▶ video](media/videos/Task3/clear_awe.mp4) | [▶ video](media/videos/Task3/clear_act.mp4) |
+<table>
+<tr>
+  <th>SSL-HWE + ACT (Ours)</th>
+  <th>AWE + ACT</th>
+  <th>ACT</th>
+</tr>
+<tr>
+  <td><video src="media/videos/Task3/clear_ssl_hwe.mp4" controls width="280" muted loop playsinline></video></td>
+  <td><video src="media/videos/Task3/clear_awe.mp4" controls width="280" muted loop playsinline></video></td>
+  <td><video src="media/videos/Task3/clear_act.mp4" controls width="280" muted loop playsinline></video></td>
+</tr>
+</table>
 
 
